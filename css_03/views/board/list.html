@@ -4,33 +4,40 @@
     <head>
         <meta charset="UTF-8">
         <title>mysite</title>
-        <style>
-            div{border:1px solid #000000}
-            #subMenu{
-                float: left;
-            }
+        <link href="../../assets/css/mysite.css" rel="stylesheet">   
 
-            #main{
-                float: left;
-            }
-
-            /* clearfix */
-            .clearfix::before, .clearfix::after {display: block; content: ""; line-height: 0;}
-            .clearfix::after {clear: both;}
-
-
-        </style>
     </head>
 
     <body>
-        <div>header</div>
-        <div>nav - gnb</div>
-        <div class="clearfix">
-            <div id="subMenu">서브메뉴</div>
-            <div id="main">게시판리스트</div>
+        <div id="wrap">
+            <div id="header" class="clearfix">
+                <h1>MySite</h1>
+    
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+            
+            <div id="nav">
+                <ul class="clearfix">
+                    <li><a href="">입사지원서</a></li>
+                    <li><a href="">게시판</a></li>
+                    <li><a href="">갤러리</a></li>
+                    <li><a href="">방명록</a></li>
+                </ul>
+            </div>
+
+            <div id="contents">
+                이페이지만의 내용
+            </div>
+
+            <div id="footer">
+                <p>
+                    Copyright ⓒ2024 황일영 All right reserved
+                </p>
+            </div>
         </div>
-        
-        <div>footer</div>
 
     </body>    
 
