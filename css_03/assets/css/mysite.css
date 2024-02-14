@@ -53,10 +53,17 @@ ul, ol {list-style-type: none;}
     border-bottom: 1px solid #dddddd;
 }
 
+/*메인페이지 1단*/
 #wrap #contents{
     padding: 30px 10px 30px 10px;
     background-color: #ffffff;
 }
+
+/*메인페이지 2단*/
+#wrap #contents2 {
+    padding: 20px 0px 20px 0px;
+}
+
 
 #wrap #footer{
     padding: 15px 10px 15px 10px;
@@ -90,10 +97,6 @@ ul, ol {list-style-type: none;}
 
 
 /* nav */
-#nav ul {
-    
-}
-
 #nav ul>li  {
     width: 250px;
     float: left;
@@ -103,40 +106,11 @@ ul, ol {list-style-type: none;}
 }
 
 
-
-/* contents */
-#contents #profile{
-    width: 300px;
-    float: left;
-    margin-right: 30px;
-}
-
-#contents #greeting-box {
-    float: left;
-    font-size: 18px;
-}
-
-#contents #greeting-box .greeting {
-    font-weight: bold;
-}
-
-
-
 /* footer */
 #footer p{
     font-size: 15px;
 }
 
-/************************************/
-
-#contents2 div{
-   
-}
-
-
-#contents2 {
-    padding: 20px 0px 20px 0px;
-}
 
 #contents2 #aside{
     width: 180px;
@@ -167,15 +141,13 @@ ul, ol {list-style-type: none;}
 }
 
 
-
-
-
-
-
 #contents2 #main{
     width: 816px;
     float: left;
 }
+
+
+
 
 
 
