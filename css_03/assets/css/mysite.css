@@ -126,3 +126,56 @@ ul, ol {list-style-type: none;}
 #footer p{
     font-size: 15px;
 }
+
+/************************************/
+
+#contents2 div{
+   
+}
+
+
+#contents2 {
+    padding: 20px 0px 20px 0px;
+}
+
+#contents2 #aside{
+    width: 180px;
+    float: left;
+}
+
+
+#contents2 #aside h2{
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    background-color: #dddddd;
+}
+
+#contents2 #aside ul{
+    width: 160px;
+}
+
+#contents2 #aside ul>li{
+    margin-top: 5px;
+    padding: 8px 0px 8px 10px;
+    font-size: 15px;
+    border: 1px solid #a6a6a6;
+
+}
+
+
+
+
+
+
+
+#contents2 #main{
+    width: 816px;
+    float: left;
+}
+
+
+
